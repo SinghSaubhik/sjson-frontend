@@ -1,0 +1,27 @@
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+
+  &__toast{
+    margin: 4rem 0;
+    width: 60%;
+    align-self: center;
+  }
+  .editor {
+    margin: auto auto;
+    width: 60%;
+  }
+
+  .btn {
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+
+    .last{
+        margin-left: 1rem;
+    }
+  }
+
+}

@@ -1,0 +1,42 @@
+$toggle-background-color-on: dodgerblue;
+$toggle-background-color-off: darkgray;
+$toggle-control-color: white;
+$toggle-width: 70px;
+$toggle-height: 30px;
+$toggle-gutter: 5px;
+$toggle-radius: 50%;
+$toggle-control-speed: 0.15s;
+$toggle-control-ease: ease-in;
+
+// These are our computed variables
+// change at your own risk.
+$toggle-radius: $toggle-height / 2;
+$toggle-control-size: $toggle-height - ($toggle-gutter * 2);
+
+.header {
+  display: flex;
+  font-size: 1.6rem;
+  height: 5rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo{
+    margin: 0 1rem;
+  }
+
+  &__switch{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+
+    justify-content: space-between;
+
+    span{
+      margin: 0 1rem;
+    }
+  }
+}
