@@ -96,6 +96,7 @@ class Home extends Component {
                         enableSnippets={true}
                         fontSize={24}
                         editorProps={{ $blockScrolling: true }}
+                        value={this.json}
                     />
                     <span hidden={this.state.jsonUrl ? false : true}>{this.state.jsonUrl}</span>
                 </div>
